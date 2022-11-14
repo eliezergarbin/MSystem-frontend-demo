@@ -1,0 +1,13 @@
+html, body {
+    position: relative;
+    overflow: hidden;
+}
+
+body{
+    background: url("../components/body-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
