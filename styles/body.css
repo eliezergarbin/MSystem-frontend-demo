@@ -22,7 +22,8 @@ body{
 }
 
 .left-content {
-    margin-bottom: 100px;
+    display: inline-block;
+    margin-bottom: 20%;
     width: 45vw;
 }
 
