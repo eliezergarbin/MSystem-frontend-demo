@@ -1,6 +1,14 @@
 footer {
+    padding: 1rem;
+    background: url("../components/footer-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+footer p {
+    padding-bottom: 1rem;
     text-align: center;
-    font-weight: bold;
     font-style: italic;
-    color: #black;
+    color: #fff;
 }

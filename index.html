@@ -61,7 +61,7 @@
     </header>
 
     <section class="home">
-      <aside id="left-content">
+      <aside class="left-content">
         <h2 class="title-text">Venha conhecer as nossas</h2>
         <h2><span class="subtitle-text">SOLUÇÕES</span></h2>
         <p class="typing-text">
@@ -70,75 +70,148 @@
           para todos os públicos.
         </p>
       </aside>
-      <aside id="right-content">
-        <article>
-          <img
-            class="img-home"
-            src="./components/home-img.png"
-            alt="imagem da tela home"
-          />
-        </article>
-      </aside>
+      <article>
+        <img
+          class="img-home"
+          src="./components/home-img.png"
+          alt="imagem da tela home"
+        />
+      </article>
     </section>
     <section class="solucoes">
-        <div class="content-solucoes">
-            <h2 class="heading-solucoes">SOLUÇÕES</h2>
-            <p>Conheça algumas de nossas soluções</p>
+      <div class="content-solucoes">
+        <h2 class="heading-solucoes">SOLUÇÕES</h2>
+        <p>Conheça algumas de nossas soluções</p>
+      </div>
+      <div class="card-wrapper">
+        <div class="card-item">
+          <img
+            src="./components/cards/sistema-gestao.svg"
+            alt="Icone de Sistema de Gestão"
+          />
+          <div class="card-content">
+            <h3>Sistema de Gestão</h3>
+            <p>
+              Tenha o controle total dos processos de sua empresa, de forma
+              integrada e confiável, temos soluções para vários segmentos,
+              empresas de pequeno, médio ou grande porte.
+            </p>
+          </div>
         </div>
-        <div class="card-wrapper">
-            <div class="card-item">
-                <img src="./components/cards/sistema-gestao.svg" alt="Icone de Sistema de Gestão">
-                <div class="card-content">
-                    <h3>Sistema de Gestão</h3>
-                    <p>Tenha o controle total dos processos de sua empresa, de forma integrada e confiável, temos soluções para vários segmentos, empresas de pequeno, médio ou grande porte.</p>
-                </div>
-            </div>
-            <div class="card-item">
-                <img src="./components/cards/finaceiro.svg" alt="Icone do Financeiro">
-                <div class="card-content">
-                    <h3>Financeiro</h3>
-                    <p>Temos controle de caixa, contas a pagar, contas a receber e emissão de boletos, com o objetivo proporcionar o levantamento de recursos financeiros necessários para operações financeiras da empresa.</p>
-                </div>
-            </div>
-            <div class="card-item">
-                <img src="./components/cards/estoque.svg" alt="Icone de Controle de Estoque">
-                <div class="card-content">
-                    <h3>Controle de Estoque</h3>
-                    <p>Oferecemos um controle de estoque fácil e eficiente, garantindo segurança e controle de toda entrada e saída de produto dentro da empresa, demonstrado através de relatórios gerenciais.</p>
-                </div>
-            </div>
-            <div class="card-item">
-                <img src="./components/cards/fiscal.png" alt="Icone de Documento Fiscal">
-                <div class="card-content">
-                    <h3>Documentos Fiscais</h3>
-                    <p>Oferecemos a emissão de documentos fiscais, como NF-e, MDF-e, CT-e, NFS-e, NFC-e, Cupom Fiscal (SAT) e serviços de envio automático de e-mail no momento de envio dos documentos ao cliente e escritórios de contabilidade.</p>
-                </div>
-            </div>
-            <div class="card-item">
-                <img src="./components/cards/pedido-processado.svg" alt="Icone de Controle de Vendas">
-                <div class="card-content">
-                    <h3>Controle de Vendas</h3>
-                    <p>Controle todas as suas vendas, contamos com uma interface de vendas amigável e auto-explicativa, garantindo facilidade e simplicidade no uso do software, facilitando e garantindo agilidade no momentos de suas vendas.</p>
-                </div>
-            </div>
-            <div class="card-item">
-                <img src="./components/cards/rel-gerencial.svg" alt="Icone do Relatório Gerencial">
-                <div class="card-content">
-                    <h3>Relatório Gerenciais</h3>
-                    <p>Com nossa solução você será capaz de tomar decisões inteligentes com base em números. Contamos com diversos relatórios gerenciais que te auxiliam no controle e nas tomadas de decisões estratégicas de sua empresa.</p>
-                </div>
-            </div>
+        <div class="card-item">
+          <img
+            src="./components/cards/finaceiro.svg"
+            alt="Icone do Financeiro"
+          />
+          <div class="card-content">
+            <h3>Financeiro</h3>
+            <p>
+              Temos controle de caixa, contas a pagar, contas a receber e
+              emissão de boletos, com o objetivo proporcionar o levantamento de
+              recursos financeiros necessários para operações financeiras da
+              empresa.
+            </p>
+          </div>
         </div>
-        
+        <div class="card-item">
+          <img
+            src="./components/cards/estoque.svg"
+            alt="Icone de Controle de Estoque"
+          />
+          <div class="card-content">
+            <h3>Controle de Estoque</h3>
+            <p>
+              Oferecemos um controle de estoque fácil e eficiente, garantindo
+              segurança e controle de toda entrada e saída de produto dentro da
+              empresa, demonstrado através de relatórios gerenciais.
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img
+            src="./components/cards/fiscal.png"
+            alt="Icone de Documento Fiscal"
+          />
+          <div class="card-content">
+            <h3>Documentos Fiscais</h3>
+            <p>
+              Oferecemos a emissão de documentos fiscais, como NF-e, MDF-e,
+              CT-e, NFS-e, NFC-e, Cupom Fiscal (SAT) e serviços de envio
+              automático de e-mail no momento de envio dos documentos ao cliente
+              e escritórios de contabilidade.
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img
+            src="./components/cards/pedido-processado.svg"
+            alt="Icone de Controle de Vendas"
+          />
+          <div class="card-content">
+            <h3>Controle de Vendas</h3>
+            <p>
+              Controle todas as suas vendas, contamos com uma interface de
+              vendas amigável e auto-explicativa, garantindo facilidade e
+              simplicidade no uso do software, facilitando e garantindo
+              agilidade no momentos de suas vendas.
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img
+            src="./components/cards/rel-gerencial.svg"
+            alt="Icone do Relatório Gerencial"
+          />
+          <div class="card-content">
+            <h3>Relatório Gerenciais</h3>
+            <p>
+              Com nossa solução você será capaz de tomar decisões inteligentes
+              com base em números. Contamos com diversos relatórios gerenciais
+              que te auxiliam no controle e nas tomadas de decisões estratégicas
+              de sua empresa.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="contato">
-        <div class="content-contato">
-            <form class="form-contato"action=""></form>
+      <article>
+        <img src="./components/send-email.png" alt="" />
+      </article>
+      <form id="form" action="" method="POST">
+        <h2>CONTATO</h2>
 
+        <input class="inputForm" type="text" name="name" placeholder="Nome" />
+        <input
+          class="inputForm"
+          type="email"
+          name="e-mail"
+          placeholder="E-mail"
+        />
+        <input
+          class="inputForm"
+          type="phone"
+          name="tel"
+          placeholder="Celular"
+        />
+        <textarea
+          class="inputForm"
+          id="message"
+          type="text"
+          cols="30"
+          rows="10"
+          maxlength="3000"
+          placeholder="Mensagem"
+        ></textarea>
+        <div class="btn-send">
+          <button><a href="#">Enviar</a></button>
         </div>
+      </form>
     </section>
-    <footer>Copyright 2022 © | Eliezer Nascimento</footer>
+    <footer>
+      <p>Copyright 2022 © | Eliezer Nascimento</p>
+    </footer>
 
     <script>
       function typeWriter(element) {

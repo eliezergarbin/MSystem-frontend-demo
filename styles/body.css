@@ -21,8 +21,8 @@ body{
   height: 1000px;
 }
 
-#left-content {
-    margin-bottom: 200px;
+.left-content {
+    margin-bottom: 100px;
     width: 45vw;
 }
 
@@ -66,7 +66,7 @@ body{
 }
 
 .right-content {
-    height:100vh;
+    height: 100vh;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -148,4 +148,68 @@ section .card-wrapper .card-item {
 .card-item p {
     font-size: 0.9rem;
     padding: 1rem 0;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+.conato article {
+    padding: 0;
+}
+.contato img {
+    width: 60%;
+
+}
+
+#form {
+    flex: 1 1 40rem;
+    padding: 2rem 3rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 40%);
+    border-radius: 0.5rem;
+    background: #fff;
+    flex-direction: column;
+}
+
+#form h2 {
+    text-align: left;
+    background: linear-gradient(90deg, #414fd1, #f88b32);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.inputForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 0.1rem solid rgba(0,0,0,.2);
+}
+
+#message {
+    min-width: 250px;
+}
+
+.btn-send button{
+    width: 25%;
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 5rem;
+    background: linear-gradient(90deg, #414fd1, #f88b32);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    border: none;
 }
